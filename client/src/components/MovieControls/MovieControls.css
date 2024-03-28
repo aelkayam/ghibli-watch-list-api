@@ -1,0 +1,16 @@
+
+.ctrl-button {
+    color: #fefefe;
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .ctrl-button:hover {
+    color: var(--secondary);
+    cursor: pointer;
+  }
+  

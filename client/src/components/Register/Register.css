@@ -1,0 +1,41 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 1rem 0.5rem;
+}
+
+.register h1 {
+  color: var(--primary);
+}
+
+.register section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"],
+.register button,
+textarea {
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+.register button {
+  margin-top: 1rem;
+}
+
+.register button {
+  padding: 0.5rem;
+}

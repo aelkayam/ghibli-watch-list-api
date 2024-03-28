@@ -1,0 +1,26 @@
+{
+  "name": "films-watchlist",
+  "version": "1.0.0",
+  "description": "watchlist app for Studio Ghibli films",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "watchlist",
+    "ghibli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "nth-check": "2.1.1",
+    "react": "18.2.0",
+    "react-router-dom": "6.3.0"
+  }
+}

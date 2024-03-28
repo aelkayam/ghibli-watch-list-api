@@ -1,0 +1,49 @@
+.settings {
+  padding: 30px 0;
+  margin: 0;
+}
+
+.settings .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.heading {
+  color: var(--primary);
+  margin: 0;
+}
+
+.settings-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.change-bg,
+.change-theme {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  padding: 5px 5px 5px 5px;
+  background-color: var(--primary);
+  font-size: 1.2rem;
+  color: var(--white);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.select option {
+  margin: 10px 10px 10px 10px;
+  padding: 30px 30px 30px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}

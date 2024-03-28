@@ -1,0 +1,36 @@
+.about {
+  padding: 30px 0;
+}
+
+.about .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about .heading {
+  color: var(--primary);
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .info {
+  text-indent: 15px;
+  font-weight: 400;
+  padding-inline: 15%;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.main p {
+  margin-top: 0px;
+}
+
+.main .info-logo {
+  width: 40%;
+  align-self: center;
+}

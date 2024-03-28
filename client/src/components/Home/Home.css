@@ -1,0 +1,25 @@
+.home {
+  padding: 30px 0;
+}
+
+.home .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.home .heading {
+  color: var(--primary);
+  margin: 0;
+}
+
+.home li {
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-weight: 600;
+}
+
+.home li > i {
+  color: var(--primary);
+}
